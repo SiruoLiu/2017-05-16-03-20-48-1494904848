@@ -35,7 +35,7 @@ for(var i=0;i<a.length;i++)
      sum+=item_list[n].count*item_list[n].price;
     }}
 
-list=list+'\n'+'----------------------'+'\n'+'总计:'+sum+'.00(元)'+'\n'+'**********************';
+list=list+'\n'+'----------------------'+'\n'+'总计：'+sum+'.00(元)'+'\n'+'**********************';
 
 
 console.log(list);
