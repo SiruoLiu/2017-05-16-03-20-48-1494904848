@@ -31,7 +31,7 @@ for(var i=0;i<a.length;i++)
 
     for(var n=0;n< item_list.length;n++){
     if(item_list[n].count!=0){
-    list=list+'\n'+'名称：'+item_list[n].name+'，'+'数量：'+item_list[n].count+item_list[n].unit+'，'+'单价：'+item_list[n].price+'.00(元)'+'，'+'小计:'+item_list[n].count*item_list[n].price+'.00(元)';
+    list=list+'\n'+'名称：'+item_list[n].name+'，'+'数量：'+item_list[n].count+item_list[n].unit+'，'+'单价：'+item_list[n].price+'.00(元)'+'，'+'小计：'+item_list[n].count*item_list[n].price+'.00(元)';
      sum+=item_list[n].count*item_list[n].price;
     }}
 
