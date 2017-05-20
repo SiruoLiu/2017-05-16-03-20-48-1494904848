@@ -5,7 +5,7 @@ const loadAllItems = require('./loadAllItems.js');
 //    return 'Hello World!';
 //};
 
-modile.exports=function printInventory(inputs) {
+module.exports=function printInventory(inputs) {
 var item;
 var item_list=[];   
 var a=loadAllItems();
