@@ -36,7 +36,7 @@ for(var i=0;i<a.length;i++)
     }}
 
 list=list+'\n'+'----------------------'+'\n'+'总计：'+sum+'.00(元)'+'\n'+'**********************';
-
+ console.log("Debug Info");
 return list;
 //console.log(list);
 }
